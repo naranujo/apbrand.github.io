@@ -196,7 +196,59 @@ footer {
     border-radius: 50%;
 }
 
+/* services */
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:45vw;
+    height:45vw;
+    padding:6rem;
+    margin: auto;
+    text-align:center;
+}
+
+.dark {
+    background:#12274B;
+}
+
+.light {
+    background:#fff;
+}
+
+.dark p {
+    color:#fff;
+    font-size:2rem;
+}
+
+.light p {
+    color:#12274B;
+    font-size:1.25rem;
+}
+
+.tile p {
+    margin-bottom: 0;
+}
+
+/* Tablet */
 @media (max-width: 768px) {
+    .tile {
+        width: 90vw;
+        height: calc(90vw/2);
+        padding: 1rem;
+    }
+
+    .light p {
+        font-size: 1rem;
+    }
+
+    .dark p {
+        font-size: 2rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
     header {
         flex-direction: column;
         align-items: center;
@@ -277,5 +329,53 @@ footer {
         height: 40px;
         bottom: 10px;
         right: 10px;
+    }
+
+    .tile {
+        width: 90vw;
+        height: calc(90vw/2);
+        padding: 1rem;
+    }
+
+    .light p {
+        font-size: 0.75rem;
+    }
+
+    .dark p {
+        font-size: 1rem;
+    }
+}
+
+/* Mobile M */
+@media (max-width: 375px) {
+    .tile {
+        width: 90vw;
+        height: calc(90vw/2);
+        padding: 1rem;
+    }
+
+    .light p {
+        font-size: 0.625rem;
+    }
+
+    .dark p {
+        font-size: 1rem;
+    }
+}
+
+/* Mobile S */
+@media (max-width: 320px) {
+    .tile {
+        width: 90vw;
+        height: calc(90vw/2);
+        padding: 1rem;
+    }
+
+    .light p {
+        font-size: 0.5rem;
+    }
+
+    .dark p {
+        font-size: 1rem;
     }
 }
