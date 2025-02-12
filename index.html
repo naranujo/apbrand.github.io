@@ -4,45 +4,180 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ApBrand - Página en Construcción</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f7f7f7;
-            color: #333;
-            text-align: center;
-            padding: 50px;
-        }
-        h6 {
-            font-size: 24px;
-            color: #e74c3c;
-        }
-        p {
-            font-size: 18px;
-            color: #555;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 30px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-    </style>
+    
+    <title>Apbrand | Consultora de Diseño y Desarrollo Web</title>
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Meta SEO -->
+    <meta name="description" content="Apbrand es una consultora de diseño y desarrollo web que ofrece soluciones innovadoras en UX/UI, marketing digital y community management. Creamos experiencias digitales que potencian tu marca.">
+    <meta name="keywords" content="apbrand, consultora, agencia, diseño, desarrollo, web, ux, ui, marketing digital, community management">
+    <meta name="author" content="Apbrand">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.apbrand.com.ar/">
+
+    <!-- Meta para móviles y navegadores -->
+    <meta name="theme-color" content="#12274B">
+
+    <!-- Open Graph (Facebook, LinkedIn) -->
+    <meta property="og:title" content="Apbrand | Consultora de Diseño y Desarrollo Web">
+    <meta property="og:description" content="Apbrand es una consultora de diseño y desarrollo web que ofrece soluciones innovadoras en UX/UI, marketing digital y community management. Creamos experiencias digitales que potencian tu marca.">
+    <meta property="og:image" content="https://www.apbrand.com.ar/img/logo.png">
+    <meta property="og:url" content="https://www.apbrand.com.ar/">
+    <meta property="og:site_name" content="Apbrand">
+    <meta property="og:locale" content="es_AR">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@apbrand">
+    <meta name="twitter:creator" content="@apbrand">
+    <meta name="twitter:title" content="Apbrand | Consultora de Diseño y Desarrollo Web">
+    <meta name="twitter:description" content="Apbrand es una consultora de diseño y desarrollo web que ofrece soluciones innovadoras en UX/UI, marketing digital y community management. Creamos experiencias digitales que potencian tu marca.">
+    <meta name="twitter:image" content="https://www.apbrand.com.ar/img/logo.png">
+    <meta name="twitter:image:alt" content="Apbrand">
+    <meta name="twitter:url" content="https://www.apbrand.com.ar/">
+    <meta name="twitter:label1" content="Tiempo de lectura">
+    <meta name="twitter:data1" content="3 minutos">
+
+    <!-- Scripts (con defer para optimizar carga) -->
+    <script src="js/jquery-3.5.1.min.js" defer></script>
+    <script src="js/popper.min.js" defer></script>
+    <script src="js/bootstrap.min.js" defer></script>
+    <script src="js/aos.js" defer></script>
+    <script src="js/jquery.easing.min.js" defer></script>
+    <script src="js/script.js" defer></script>
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    <div class="container">
-        <h6>¡Estamos trabajando en algo increíble!</h6>
-        <p>Por el momento, nuestra página web está en construcción. Lamentamos las molestias.</p>
-        <p>Si tienes alguna duda o consulta, no dudes en contactarnos al: <a href="mailto:consultas@apbrand.com.ar">consultas@apbrand.com.ar</a></p>
-    </div>
+    <header class="container">
+        <!-- Left side - logo -->
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="Apbrand">
+            </a>
+        </div>
+        <!-- Right side - menu -->
+        <nav>
+            <ul>
+                <li><a href="services.html">Servicios</a></li>
+                <!-- unicode punto medio: &middot; -->
+                <li class="separator">&middot;</li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li class="separator">&middot;</li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <hr>
+
+        <section id="slogan" class="container">
+            <!-- Quote in the middle -->
+            <div class="quote text-center">
+                <h1>APBRAND</h1>
+                <h2>¡YOUR VISION, OUR MISSION!</h2>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="about-us" class="container">
+            <!-- 2 cols -->
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Sobre Nosotros</h2>
+                    <p>Apbrand es una consultora de diseño y desarrollo web que ofrece soluciones innovadoras en UX/UI, marketing digital y community management. Creamos experiencias digitales que potencian tu marca.</p>
+                    <a href="#contact" class="btn btn-primary">Contactanos</a>
+                </div>
+                <div class="col-md-6">
+                    <!-- <img src="img/about-us.png" alt="About Us"> -->
+                    <img src="img/default-picture.png" alt="About Us">
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="our-vision" class="container d-flex justify-content-space-between">
+            <!-- Misión -->
+            <article class="card text-center">
+                <h2>Misión</h2>
+                <p>Brindar soluciones estratégicas e innovadoras en diseño, desarrollo web y marketing digital, enfocándonos en la experiencia del usuario y en resultados medibles para el crecimiento de nuestros clientes.</p>
+            </article>
+            <!-- Visión -->
+            <article class="card text-center">
+                <h2>Visión</h2>
+                <p>Ser una consultora líder en diseño y desarrollo web, reconocida por transformar ideas en experiencias digitales impactantes, ayudando a marcas a destacarse en el mundo digital.</p>
+            </article>
+            <!-- Valores -->
+            <article class="card text-center">
+                <h2>Valores</h2>
+                <p>Nos guiamos por la innovación, la excelencia, la transparencia y el compromiso con cada proyecto. Creemos en el poder del diseño y la tecnología para impulsar el éxito de las marcas.</p>
+            </article>
+        </section>
+
+        <hr>
+
+        <section id="contact" class="container">
+            <!-- phone & email -->
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- <img src="img/about-us.png" alt="About Us"> -->
+                    <img src="img/default-picture.png" alt="About Us">
+                </div>
+                <div class="col-md-6">
+                    <h2>Contacto</h2>
+                    <p>¡Estamos para ayudarte! Completá el formulario y nos pondremos en contacto a la brevedad.</p>
+                    <ul class="">
+                        <li class="mt-1 mb-1"><i class="fas fa-phone-alt"></i> +54 9 11 7067-2477</li>
+                        <li class="mt-1 mb-1"><i class="fas fa-envelope"></i>
+                            <a href="mailto:consultas@apbrand.com.ar">
+                                consultas@apbrand.com.ar
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                    
+        </section>
+    </main>
+    <footer>
+        <section class="container footer-top">
+            <p>
+                &copy; 2025 Apbrand | Todos los derechos reservados.
+            </p>
+        </section>
+        <section class="container footer-bottom">
+            <nav>
+                <ul>
+                    <li><a href="services.html">Servicios</a></li>
+                    <!-- unicode punto medio: &middot; -->
+                    <li class="separator">&middot;</li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li class="separator">&middot;</li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <article>
+                <a href="https://www.facebook.com/apbrand" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/company/apbrand" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.twitter.com/apbrand" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/apbrand" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/apbrand" target="_blank"><i class="fab fa-instagram"></i></a>
+            </article>
+        </section>
+    </footer>
+    <!-- botón de whatsapp -->
+    <a href="https://wa.me/5491170672477" class="btn-whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 </body>
 </html>

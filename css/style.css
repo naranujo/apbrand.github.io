@@ -1,0 +1,197 @@
+/* 
+
+COLORS:
+------------------------
+#12274B → Dark Navy Blue
+#1468B1 → Royal Blue
+#2A7ABF → Medium Blue
+#4C97D2 → Sky Blue
+#D0DEDF → Pale Blue Gray
+
+FONTS:
+------------------------
+to complete
+
+*/
+
+/* 
+  CSS Reset
+  -----------------------------------
+  A couple of resets to remove default browser styling
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+  Global Styles
+  -----------------------------------
+  Site-wide styles
+*/
+
+body {
+    background: #12274B;
+    font-family: '...', sans-serif; /* TO COPMLETE */
+}
+
+header {
+    background: #12274B;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo, header .logo a, header .logo a img {
+    width: 100px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: auto;
+}
+
+header nav ul li {
+    margin-right: 1.25rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #4C97D2;
+    text-decoration: none;
+}
+
+.separator {
+    /* cambiar tamaño al caracter unicode */
+    font-size: 2rem;
+}
+
+main {
+    background-color: #12274B;
+}
+
+main hr {
+    border: 1px solid #fff;
+    margin: 0;
+}
+
+main section {
+    padding: 3rem 0;
+    color: #fff;
+}
+
+.quote h1 {
+    font-size: 3.5rem;
+}
+
+.quote h2 {
+    font-size: 5rem;
+    color: #4C97D2;
+    padding: 1rem;
+}
+
+#about-us div div img, #contact div div img {
+    width: 100%;
+}
+
+.card {
+    width: calc(33.33% - 2rem);
+    background: #2A7ABF;
+    color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+.card:first-child {
+    margin-right: 2rem;
+}
+
+.card:nth-child(2) {
+    margin: 1rem 2rem;
+}
+
+.card:last-child {
+    margin-left: 2rem;
+}
+
+#contact div div ul {
+    list-style: none;
+}
+
+footer {
+  background: #D0DEDF;
+  padding: 1rem;
+  color: #5b5b5b;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    border-bottom: 1px solid #bbb;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: auto;
+}
+
+.footer-bottom nav ul li {
+    margin-right: 1.25rem;
+}
+
+.footer-bottom nav ul li a {
+    color: #5b5b5b;
+    text-decoration: none;
+}
+
+.footer-bottom nav ul li a:hover {
+    color: #4C97D2;
+    text-decoration: none;
+}
+
+.footer-bottom article {
+    color: #5b5b5b;
+}
+
+.footer-bottom article a {
+    color: #5b5b5b;
+    text-decoration: none;
+    margin-right: 1.25rem;
+}
+
+.btn-whatsapp {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
