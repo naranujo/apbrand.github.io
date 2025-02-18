@@ -10,9 +10,11 @@ COLORS:
 
 FONTS:
 ------------------------
-to complete
+Bricolage Grotesque
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
 
 /* 
   CSS Reset
@@ -24,6 +26,7 @@ to complete
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 /* 
@@ -65,6 +68,7 @@ header nav ul li {
 header nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.25rem;
 }
 
 header nav ul li a:hover {
@@ -96,9 +100,15 @@ main section {
 }
 
 .quote h2 {
-    font-size: 5rem;
+    font-size: 6rem;
     color: #4C97D2;
     padding: 1rem;
+    font-weight: bold;
+}
+
+section h2 {
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #about-us div div img, #contact div div img {
@@ -196,6 +206,26 @@ footer {
     border-radius: 50%;
 }
 
+section p {
+    font-size: 1.25rem;
+}
+
+.btn-primary {
+    background-color: transparent;
+    border-color: #4C97D2;
+    border-radius: 5pt;
+    font-size: 1.25rem;
+}
+
+.btn-primary:hover {
+    background-color: #4C97D2;
+    color: #fff;
+}
+
+.contact-menu {
+    font-size: 1.25rem;
+}
+
 /* services */
 .tile {
     display: flex;
@@ -219,6 +249,8 @@ footer {
 .dark p {
     color:#fff;
     font-size:2rem;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .light p {
