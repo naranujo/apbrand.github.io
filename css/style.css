@@ -403,14 +403,6 @@ section p {
         right: 10px;
     }
 
-    .light p {
-        font-size: 0.75rem;
-    }
-
-    .dark p {
-        font-size: 1rem;
-    }
-
     header nav ul li a {
         font-size: 12pt;
     }
@@ -458,6 +450,14 @@ section p {
     footer section nav ul li {
         margin-right: 2pt;
     }
+
+    .light p {
+        font-size: 7pt;
+    }
+
+    .dark p {
+        font-size: 14pt;
+    }
 }
 
 /* Mobile M */
@@ -465,12 +465,17 @@ section p {
     header nav ul li {
         margin: 0 4pt;
     }
+
 }
 
 /* Mobile S */
 @media (max-width: 320px) {
     header nav ul li {
         margin: 0 2pt;
+    }
+    
+    .light p {
+        font-size: 6pt;
     }
 }
 
